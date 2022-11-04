@@ -1,0 +1,4 @@
+https://swiftransact-mock-up.vercel.app/
+https://swiftransact-mock-up.vercel.app/about
+https://swiftransact-mock-up.vercel.app/sign
+https://swiftransact-mock-up.vercel.app/sign/id
