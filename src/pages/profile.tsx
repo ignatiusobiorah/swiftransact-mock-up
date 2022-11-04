@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import { useNavigate } from "react-router-dom";
 import { IAuthContext, useAuthContext } from "../components/AuthContext";
 import "../styles/profile.scss";
@@ -9,6 +10,15 @@ const Profile = () => {
 
   return (
     <div className="profile">
+      <Helmet>
+        <title>Swiftransact</title>
+        <meta
+          name="description"
+          content="Effortlessly manage your digital assets and make instant
+            transactions across the Milky Way.."
+        />
+        <link rel="canonical" href="/sign/:id" />
+      </Helmet>
       <button onClick={() => navigate(-1)}>BACK</button>
       <div className="profileContent">
         <div className="welcome">

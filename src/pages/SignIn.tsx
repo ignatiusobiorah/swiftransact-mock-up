@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Helmet } from "react-helmet-async";
 import { useNavigate } from "react-router-dom";
 import {
   IAuthContext,
@@ -32,6 +33,15 @@ const SignIn: React.FC = () => {
   return (
     <FrontLayout>
       <div className="signIn">
+        <Helmet>
+          <title>Swiftransact</title>
+          <meta
+            name="description"
+            content="Effortlessly manage your digital assets and make instant
+            transactions across the Milky Way.."
+          />
+          <link rel="canonical" href="/sign" />
+        </Helmet>
         <div className="signInForm">
           <form onSubmit={handleSubmit}>
             <label htmlFor="email">Enter your mail:</label>

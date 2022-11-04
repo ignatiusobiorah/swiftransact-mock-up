@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import FrontLayout from "../components/FrontLayout";
 import app from "../img/app-3.png";
 import "../styles/about.scss";
@@ -7,6 +8,15 @@ const About: React.FC = () => {
   return (
     <FrontLayout>
       <div className="about">
+        <Helmet>
+          <title>Swiftransact</title>
+          <meta
+            name="description"
+            content="Effortlessly manage your digital assets and make instant
+            transactions across the Milky Way.."
+          />
+          <link rel="canonical" href="/about" />
+        </Helmet>
         <div className="aboutText">
           <h3>SWIFTRANSACT</h3>
           <p>
