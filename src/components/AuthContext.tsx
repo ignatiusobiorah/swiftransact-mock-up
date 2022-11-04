@@ -49,16 +49,37 @@ export default AuthContextProvider;
 export const data: IUser[] = [
   {
     id: "1",
-    name: "user1",
+    name: "SETEMI",
     email: "user1@gmail.com",
     password: "12345",
     phone: "08098765573",
   },
   {
     id: "2",
-    name: "user2",
+    name: "Francis",
     email: "user2@gmail.com",
     password: "67890",
     phone: "09089086654",
+  },
+  {
+    id: "3",
+    name: "Joseph",
+    email: "user3@gmail.com",
+    password: "09876",
+    phone: "07012345678",
+  },
+  {
+    id: "4",
+    name: "Janelle",
+    email: "user4@gmail.com",
+    password: "54321",
+    phone: "09065437689",
+  },
+  {
+    id: "5",
+    name: "Jane",
+    email: "user5@gmail.com",
+    password: "56789",
+    phone: "07058975432",
   },
 ];

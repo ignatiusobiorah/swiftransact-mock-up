@@ -1,0 +1,60 @@
+.profile {
+  background: #ffa500;
+  height: 100vh;
+
+  .profileContent {
+    .welcome {
+      background: #8c8989;
+      display: flex;
+      justify-content: space-between;
+
+      h1 {
+        margin: 1rem 0.5rem 0.5rem 2rem;
+      }
+
+      h2 {
+        margin-right: 2rem;
+      }
+    }
+
+    .details {
+      background: #8c8989;
+      width: 60vh;
+      border-radius: 12px;
+      padding: 0.5rem;
+      margin-left: 2rem;
+      margin-top: 2rem;
+      font-size: 1rem;
+      li {
+        line-height: 1rem;
+        margin-bottom: 0.5rem;
+
+        span {
+          font-size: 1.2rem;
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+  button {
+    background: #101010;
+    border-radius: 50px;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    color: #101010;
+    font-weight: 600;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 15vh;
+    margin: 20px;
+
+    &:hover {
+      background: #ffffff;
+      color: #101010;
+      transition: 0.5s ease;
+    }
+  }
+}
