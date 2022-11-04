@@ -1,0 +1,40 @@
+.error {
+  min-height: 100vh;
+  background: #fff0d3;
+
+  .errorText {
+    text-align: center;
+    color: #233142;
+    padding-top: 20vh;
+  }
+  h2 {
+    margin-top: 0;
+  }
+
+  h1 {
+    font-size: 160px;
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: 20px;
+  }
+
+  button {
+    background: #101010;
+    border-radius: 50px;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    color: #101010;
+    font-weight: 600;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 20vh;
+
+    &:hover {
+      background: #ffa500;
+      transition: 0.5s ease;
+    }
+  }
+}

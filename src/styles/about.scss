@@ -1,0 +1,22 @@
+.about {
+  display: flex;
+  padding: 7rem 2rem;
+  justify-content: space-between;
+
+  .aboutText {
+    h3 {
+      font-weight: 400;
+      color: #233142;
+      font-size: 3rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+    }
+
+    ul {
+      line-height: 2rem;
+      color: #ffa500;
+    }
+  }
+}

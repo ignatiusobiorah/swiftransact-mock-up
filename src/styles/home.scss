@@ -1,0 +1,56 @@
+.home {
+  display: flex;
+  padding: 7rem 2rem;
+  justify-content: space-between;
+
+  .contentText {
+    width: 30vw;
+    h4 {
+      font-size: 1.2rem;
+      color: #dca87c;
+      font-weight: 500;
+    }
+
+    h2 {
+      font-weight: 600;
+      color: #233142;
+      font-size: 3rem;
+    }
+
+    h6 {
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+      font-weight: 400;
+      color: #233142;
+    }
+
+    .contentBtn {
+      background: #dd8941;
+      border-radius: 50px;
+      padding: 0.5rem 0.5rem 0.5rem 1rem;
+      border: none;
+      outline: none;
+      color: #101010;
+      font-weight: 600;
+      cursor: pointer;
+      color: #ffffff;
+      font-size: 1rem;
+      font-weight: 400;
+
+      &:hover {
+        background: orange;
+        transition: all 0.5s ease;
+      }
+
+      i {
+        margin-left: 0.5rem;
+        font-size: larger;
+      }
+
+      a {
+        text-decoration: none;
+        color: #ffffff;
+      }
+    }
+  }
+}

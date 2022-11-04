@@ -1,0 +1,28 @@
+.nav {
+  background: #ffffff;
+  padding: 0.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+
+  .navList {
+    ul {
+      font-size: 1rem;
+      display: flex;
+      list-style: none;
+      align-items: flex-end;
+      gap: 1rem;
+    }
+
+    a {
+      color: #101010;
+      text-decoration: none;
+      font-weight: 500;
+      text-transform: uppercase;
+      &:hover {
+        color: #ffa500;
+      }
+    }
+  }
+}

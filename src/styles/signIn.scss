@@ -1,0 +1,48 @@
+.signIn {
+  display: flex;
+  padding: 7rem 2rem;
+  justify-content: space-between;
+  form {
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    margin-top: 10vh;
+    background: #ffa500;
+    padding: 2rem;
+    border-radius: 12px;
+
+    label {
+      font-weight: 300;
+      color: #233142;
+      font-size: 1.2rem;
+    }
+
+    input {
+      margin-bottom: 1rem;
+      width: 50vh;
+      height: 30px;
+      outline: none;
+      border: none;
+      padding: 0.5rem;
+      border-radius: 12px;
+
+      font-weight: 500;
+    }
+
+    button {
+      background: #101010;
+      border-radius: 50px;
+      padding: 0.5rem;
+      border: none;
+      outline: none;
+      color: #101010;
+      font-weight: 600;
+      cursor: pointer;
+      color: #ffffff;
+      font-size: 1rem;
+      font-weight: 400;
+      width: 15vh;
+      align-self: center;
+    }
+  }
+}

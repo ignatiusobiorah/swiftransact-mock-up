@@ -1,0 +1,30 @@
+.errorBoundary {
+  h1 {
+    text-align: center;
+    margin-top: 30vh;
+    font-weight: 600;
+    font-size: 10vh;
+    color: #ffa500;
+  }
+
+  button {
+    background: #101010;
+    border-radius: 50px;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    color: #101010;
+    font-weight: 600;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 20vh;
+    margin-left: 40vw;
+
+    &:hover {
+      background: #ffa500;
+      transition: 0.5s ease;
+    }
+  }
+}
