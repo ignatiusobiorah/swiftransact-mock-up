@@ -13,7 +13,7 @@ This mock up website is built as my exam project to achieve the following:
 example of email format: user1@gmail.com
 From user 1-5 have profiles.
 
-There passwords to sign in:
+Their passwords to sign in:
 user1: 12345
 user2: 67890
 user3: 09876
